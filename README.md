@@ -1,11 +1,11 @@
 # Examen-C11-Problema-de-optimizacion-de-rutas-en-grafos-
-El siguiente repositorio que contiene los entregables para la prueba técnica de problema de optimización de rutas en grafos.
+El siguiente repositorio contiene los entregables para la prueba técnica de problema de optimización de rutas en grafos.
 
 A continuación se presenta información del proyecto.
 
-Se implementa el algoritmo de Dijkstra, debido a que se toma como base costos positivos, ademas de utilizar descomposición en sub-rutas, para encontrar la ruta mínima que cruza por la arista obligatoria (U,V), en general la arquitectura que sigue el algoritmo es el siguiente S→U + Arista (U,V) + V→D.
+Se implementa el algoritmo de Dijkstra, debido a que se toma como base costos positivos, ademas de utilizar descomposición en sub-rutas, para encontrar la ruta mínima que cruza por la arista obligatoria (U,V), en general la logica que sigue el algoritmo es el siguiente S→U + Arista (U,V) + V→D.
 
-Para la generación de datos se realizo mediante codigo python en el entorno de google colab mediante librerias **numpy**, **scipy** y **random**, por lo que si se quiere replciar en local solamente es necesario tener las librerias instaladas y tener **Python 3.8+**.
+Para la generación de datos se realizo mediante codigo python en el entorno de google colab mediante librerias **numpy**, **scipy** y **random**,si se quiere replicar en local solamente es necesario tener las librerias instaladas y tener **Python 3.8+**.
 
 Ademas se generaron dos dataset,el primero con el objetivo de bajarlo a nivel negocio y tener un esqueleto para poder desarrollar el algoritmo teniendo un total de 6 nodos y 8 aristas, con este se realizaron pruebas y casos.
 
